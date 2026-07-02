@@ -1,4 +1,3 @@
-Spotify Tag Remover
 Spotify Tag Remover is a simple utility built to clean up and standardize the metadata on audio files downloaded from Spotify or Spotify-based sources.
 
 It automatically strips out the junk—like promotional text, website names, and platform-specific tagging—so your music library stays tidy and organized.
@@ -19,8 +18,6 @@ The project is written in Python. It relies primarily on the mutagen library to 
 
 Project Structure
 Here is a quick look at how the files are organized:
-
-Plaintext
 
 spotify-tag-remover/
 │
