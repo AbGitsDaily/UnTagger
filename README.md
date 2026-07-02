@@ -1,29 +1,22 @@
-Spotify Tag Remover is a simple utility built to clean up and standardize the metadata on audio files downloaded from Spotify or Spotify-based sources.
+UnTagger
 
-It automatically strips out the junk—like promotional text, website names, and platform-specific tagging—so your music library stays tidy and organized.
+Remove unwanted platform branding and promotional metadata from downloaded audio files.
 
 Features
-The tool is designed to be straightforward and effective:
 
-Cleans unwanted tags: It scrubs away platform names (like Spotify or Spotiflyer), website URLs, and unnecessary bracketed text or prefixes.
+- Batch cleaning
+- MP3 support
+- FLAC support
+- WAV support
+- M4A support
+- Keeps Artist
+- Keeps Album
+- Keeps Title
+- Removes unwanted platform tags
 
-Format support: It works with common audio formats including MP3, FLAC, WAV, and M4A.
 
-Batch processing: You can point it at an entire folder to clean multiple files at once.
+Tech Stack: Python, Mutagen, PyInstaller
 
-Safe cleaning: While it removes the clutter, it carefully preserves the metadata you actually want, such as the Title, Artist, Album, and Track number.
+Project Structure: spotify_cleaner.py | README.md | icon.ico
 
-Tech Stack
-The project is written in Python. It relies primarily on the mutagen library to read and edit audio metadata, along with standard libraries for file and path handling.
-
-Project Structure
-Here is a quick look at how the files are organized:
-
-spotify-tag-remover/
-│
-├── main.py              # Entry point
-├── cleaner.py           # Core tag-cleaning logic
-├── utils.py             # Helper functions
-├── requirements.txt     # Dependencies
-├── .gitignore
-└── README.md
+Future Improvements: Universal UnTagger, Drag & Drop, More formats, Linux Support
